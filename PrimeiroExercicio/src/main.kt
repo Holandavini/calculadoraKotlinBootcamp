@@ -1,5 +1,5 @@
 fun main() {
-    val zero: Double = 0.0
+    const val ZERO: Double = 0.0
     println("Olá, por favor escolha a operação que iremos realizar:")
     println("(1) Soma | (2) Subtração | (3) Multiplicação | (4) Divisão")
     val operacao: String? = readLine()!!
